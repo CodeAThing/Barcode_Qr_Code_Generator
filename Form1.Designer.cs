@@ -58,26 +58,32 @@
             // 
             // btn_QrCode
             // 
+            this.btn_QrCode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(242)))), ((int)(((byte)(69)))));
+            this.btn_QrCode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(74)))), ((int)(((byte)(220)))));
             this.btn_QrCode.Location = new System.Drawing.Point(16, 104);
             this.btn_QrCode.Name = "btn_QrCode";
             this.btn_QrCode.Size = new System.Drawing.Size(195, 54);
             this.btn_QrCode.TabIndex = 10;
             this.btn_QrCode.Text = "Generate QR";
-            this.btn_QrCode.UseVisualStyleBackColor = true;
+            this.btn_QrCode.UseVisualStyleBackColor = false;
             this.btn_QrCode.Click += new System.EventHandler(this.btn_QrCode_Click_1);
             // 
             // btn_barcode
             // 
+            this.btn_barcode.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(242)))), ((int)(((byte)(69)))));
+            this.btn_barcode.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(74)))), ((int)(((byte)(220)))));
             this.btn_barcode.Location = new System.Drawing.Point(276, 104);
             this.btn_barcode.Name = "btn_barcode";
             this.btn_barcode.Size = new System.Drawing.Size(195, 54);
             this.btn_barcode.TabIndex = 9;
             this.btn_barcode.Text = "Generate Barcode";
-            this.btn_barcode.UseVisualStyleBackColor = true;
+            this.btn_barcode.UseVisualStyleBackColor = false;
             this.btn_barcode.Click += new System.EventHandler(this.btn_barcode_Click);
             // 
             // txt_code
             // 
+            this.txt_code.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(232)))), ((int)(((byte)(51)))));
+            this.txt_code.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(74)))), ((int)(((byte)(220)))));
             this.txt_code.Location = new System.Drawing.Point(268, 27);
             this.txt_code.Multiline = true;
             this.txt_code.Name = "txt_code";
@@ -87,6 +93,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(150)))), ((int)(((byte)(108)))), ((int)(((byte)(53)))));
             this.label1.Location = new System.Drawing.Point(12, 42);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(224, 24);
@@ -95,6 +102,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(96)))), ((int)(((byte)(232)))), ((int)(((byte)(51)))));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.settingsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
@@ -144,12 +152,14 @@
             // 
             // btn_print
             // 
-            this.btn_print.Location = new System.Drawing.Point(16, 259);
+            this.btn_print.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(232)))), ((int)(((byte)(220)))));
+            this.btn_print.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(74)))), ((int)(((byte)(220)))));
+            this.btn_print.Location = new System.Drawing.Point(31, 247);
             this.btn_print.Name = "btn_print";
             this.btn_print.Size = new System.Drawing.Size(81, 104);
             this.btn_print.TabIndex = 13;
             this.btn_print.Text = "Print";
-            this.btn_print.UseVisualStyleBackColor = true;
+            this.btn_print.UseVisualStyleBackColor = false;
             this.btn_print.Click += new System.EventHandler(this.btn_print_Click);
             // 
             // printDocument1
@@ -172,6 +182,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(242)))), ((int)(((byte)(176)))));
             this.ClientSize = new System.Drawing.Size(497, 426);
             this.Controls.Add(this.btn_print);
             this.Controls.Add(this.pictureBox1);
@@ -181,8 +192,10 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.menuStrip1.ResumeLayout(false);
